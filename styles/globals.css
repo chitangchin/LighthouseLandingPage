@@ -20,7 +20,20 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    background:#acd3cb;
   }
+}
+
+#content {
+  margin-top: 50px;
+}
+
+#content div {
+  height: 100vh;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
 }
