@@ -3,6 +3,7 @@
     position: fixed;
     top: 10px;
     width: 100%;
+    font-size: 2rem;
 }
 
 .navigation #leftsideNav {
@@ -10,17 +11,15 @@
     grid-auto-flow: column;
     grid-column-gap: 30px;
     margin-left: 30px;
+    font-size: 1rem;
 }
 
 .navigation #rightsideNav {
     position: absolute;
     right: 30px;
+    font-size: 2rem;
+    bottom:-10px
 }
-
-
-
-
-/* Home Button */
 
 
 
