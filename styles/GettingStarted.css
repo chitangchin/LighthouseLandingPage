@@ -6,12 +6,11 @@
 #GettingStartedComponent {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     max-width: 80%;
-    margin-top: -5%;
+    gap: 150px;
 }
 
 #GettingStartedComponent #bodyText {
@@ -20,7 +19,6 @@
     font-size: 2rem;
     font-weight:350;
     gap:100px;
-    padding-top: 100px;
     color: #F9fbf6
 }
 

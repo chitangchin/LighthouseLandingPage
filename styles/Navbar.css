@@ -1,7 +1,8 @@
 .navigation {
     display: flex;
     position: fixed;
-    top: 10px;
+    top: 1%;
+    right:41%;
     width: 100%;
     font-size: 2rem;
 }
@@ -10,17 +11,16 @@
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 30px;
-    margin-left: 30px;
     font-size: 20px;
-    color: #9b9e9b;
+    color: #d1d1d1;
     font-weight: 700;
 }
 
 .navigation #rightsideNav {
     position: absolute;
-    right: 30px;
+    right: -37%;
     font-size: 20px;
-    color: #9b9e9b;
+    color: #d1d1d1;
     font-weight: 700;
 }
 

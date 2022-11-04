@@ -32,7 +32,7 @@ export default function Navbar() {
         <div id="leftsideNav">
           <a id="HomeButton" onClick={scrollToHome}> Home </a>
           <a id="AboutButton" onClick={scrollToAbout}> About </a>
-          <a id="GettingStartedButton" onClick={scrollToGettingStarted}> Getting Started </a>
+          <a id="GettingStartedButton" onClick={scrollToGettingStarted}>Getting Started</a>
           <a id="TeamButton" onClick={scrollToTeam}> Team </a>
         </div>
 

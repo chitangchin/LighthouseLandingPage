@@ -6,8 +6,8 @@ import TeamComponent from "./Components/TeamComponent"
 
 export default function Home() {
     return <div>
-        <Navbar/>
         <div id="content">
+        <Navbar/>
         <div id="Home"><HomeComponent/></div>
         <div id="About"><AboutComponent/></div>
         <div id="GettingStarted"><GettingStartedComponent/></div>
