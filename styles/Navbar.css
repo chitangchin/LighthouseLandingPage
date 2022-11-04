@@ -12,12 +12,16 @@
     grid-column-gap: 30px;
     margin-left: 30px;
     font-size: 20px;
+    color: #9b9e9b;
+    font-weight: 700;
 }
 
 .navigation #rightsideNav {
     position: absolute;
     right: 30px;
     font-size: 20px;
+    color: #9b9e9b;
+    font-weight: 700;
 }
 
 
