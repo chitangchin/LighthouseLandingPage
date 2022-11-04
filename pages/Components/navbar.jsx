@@ -38,7 +38,7 @@ export default function Navbar() {
 
         {/* On right side of PAGE */}
         <div id="rightsideNav">
-          <a id="GithubButton" href="https://github.com/oslabs-beta/Lighthouse"> Github</a>
+          <a id="GithubButton" onClick={()=> {window.open("https://github.com/oslabs-beta/Lighthouse", '_blank')}}> Download</a>
         </div>
 
       </div>

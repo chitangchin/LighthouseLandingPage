@@ -1,30 +1,25 @@
 export default function GettingStarted() {
   return <div id="GettingStartedComponent">
     Getting Started
-    <div id="bodyText">
+    <div id="bodyText" display="block">
     <div>
-      Before using the application, the user should have a Confluent Kafka cluster up and running, as well as a Prometheus server connected to it. Afterwards, it’s as easy as inputting the Prometheus endpoint into the application.
-    </div>
+    There are just a few steps that need to be completed before being able to visualize all your data!
+      </div>
 
-    <div id="link1">
+      To begin, a pre-existing connection between your Confluent Kafka cluster and Prometheus server is required for the application to display any output. 
+      Don't worry if you don't have a Confluent Kafka cluster or Prometheus server yet, here are some resources to set those up!
+      <div id="link1" onClick={()=> {window.open("https://docs.confluent.io/confluent-cli/current/command-reference/kafka/cluster/index.html#confluent-kafka-cluster", '_blank')}}>
       Setting up a Confluent Kafka Cluster
-    </div>
-
-    <div id="link2">
+      </div>
+      <div id="link2" onClick={()=> {window.open("https://prometheus.io/docs/prometheus/latest/getting_started/", '_blank')}}>
       Setting up a Prometheus Server
-    </div>
+      </div>
 
-    <div>
-      Powered By
-    </div>
+      Next, grab your Prometheus server endpoint and replace the default connection endpoint in the application and voila!
+      
 
-    
+
 </div>
-<div id="icons">
-      <img src='/Apollo.webp'/>
-      <img src='/kafka.webp'/>
-      <img src='/Next.js.png'/>
-      <img src='/prometheus.png'/>
-    </div>
+
   </div>
 }
