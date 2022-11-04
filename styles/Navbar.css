@@ -1,29 +1,27 @@
 .navigation {
     display:flex;
     position: fixed;
-    font-size: 2rem;
-    width:100%
+    width:100%;
+    z-index:1;
 }
 
 .navigation #leftsideNav {
-    display: grid;
-    grid-auto-flow: column;
-    grid-column-gap: 30px;
-    font-size: 20px;
+    flex-direction: row;
+    position: absolute;
+    left:1vw;
+    gap: 30px;
+    font-size: 80%;
     color: #d1d1d1;
     font-weight: 700;
 }
 
 .navigation #rightsideNav {
     position: absolute;
-    right: 1%;
-    font-size: 20px;
+    right: 1vw;
+    font-size: 80%;
     color: #d1d1d1;
     font-weight: 700;
 }
-
-
-
 
 .navigation #leftsideNav #HomeButton{
     cursor: pointer;

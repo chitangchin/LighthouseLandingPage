@@ -3,39 +3,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    justify-content: center;
+
 }
 
 #Home .HomeComponent{
-    display:flex;
-}
-
-#Logo img[src="/logo.png"] {
-    max-width: 100%;
-    max-height: 300px;
-    position:relative;
+    font-size: 5vw; 
+    align-self:center;
 }
 
 #Home .HomeComponent #Logo {
-    position: relative;
-    top:45%;
-    right:18%;
-    height:min-content
+    max-height: 300px;
+    max-width: 300px;
+    height: 6vw;
+    width: 100%;
+    margin-left: 7vw;
+}
+
+#Home .HomeComponent #Text {
 }
 
 #Home .HomeComponent #Lighthouse {
-    font-size: 7rem;
     font-weight: bold;
     color: black;
-    margin-top: 4%;
+  
 }
 
 #Home .HomeComponent #OpenSourceKafka {
     display: flex;
     flex-direction: column;
-    position: relative;
     text-align: center;
-    justify-content: center;
-    font-size: 5rem;
-    left: 15%;
+    position:absolute;
+    right:10vw;
 }

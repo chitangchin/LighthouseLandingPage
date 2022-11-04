@@ -2,23 +2,23 @@
     background-color: #000000;
     height: 100vh;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue
 }
 
 #Team #TeamComponent {
     display: flex;
     flex-direction: column;
-    font-size: 3rem;
     font-weight: bold;
-    position: absolute;
-    gap:50px;
-    align-items: center;
-    bottom:2%
+    gap: 50px;
+    
 }
 
 #Team #TeamComponent #TheTeam {
     display: flex;
     flex-direction: row;
-    font-size: 2rem;
+    font-size: 100%;
     gap: 100px;
     justify-content: center;
 }
@@ -27,26 +27,36 @@
 
 
 
-
-
 /* Profile Images */
 #zaw img[src="/zaw.png"] {
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    height: 10vw;
+    width: 100%;
     clip-path: circle();
 }
 
 #brandon img[src="/brandon.jpg"] {
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    height: 10vw;
+    width: 100%;
     clip-path: circle();
 }
 
 #andy img[src="/andy.jpg"] {
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    height: 10vw;
+    width: 100%;
     clip-path: circle();
 }
 
 #christian img[src="/christian.jpeg"] {
-    height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    height: 10vw;
+    width: 100%;
     clip-path: circle();
 }
 
@@ -65,15 +75,14 @@
 #Team #TeamComponent #TheTeam #zaw {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
     gap: 30px;
     align-items: center;
+
 }
 
 #Team #TeamComponent #TheTeam #brandon {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
     gap: 30px;
     align-items: center;
 }
@@ -81,7 +90,6 @@
 #Team #TeamComponent #TheTeam #christian {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
     gap: 30px;
     align-items: center;
 }
@@ -89,7 +97,6 @@
 #Team #TeamComponent #TheTeam #andy {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
     gap: 30px;
     align-items: center;
 }
@@ -125,10 +132,11 @@
 #icons img[src="/Apollo.png"] {
     cursor: pointer;
     max-height: 200px;
-    max-width: 100%;
+    width: 100%;
+    height: 10vw;
 }
 
-#icons img[src="/Apollo.png"]:hover{
+#icons img[src="/Apollo.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -136,10 +144,12 @@
 #icons img[src="/kafka.jpg"] {
     cursor: pointer;
     max-height: 200px;
-    max-width: 100%;
+    width: 100%;
+    height: 10vw;
+
 }
 
-#icons img[src="/kafka.jpg"]:hover{
+#icons img[src="/kafka.jpg"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -147,10 +157,11 @@
 #icons img[src="/Nextjs.png"] {
     cursor: pointer;
     max-height: 200px;
-    max-width: 100%;
+    width: 100%;
+    height: 10vw;
 }
 
-#icons img[src="/Nextjs.png"]:hover{
+#icons img[src="/Nextjs.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -158,10 +169,11 @@
 #icons img[src="/prometheus.png"] {
     cursor: pointer;
     max-height: 200px;
-    max-width: 100%;
+    width: 100%;
+    height: 10vw;
 }
 
-#icons img[src="/prometheus.png"]:hover{
+#icons img[src="/prometheus.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -169,10 +181,11 @@
 #icons img[src="/GraphQL.png"] {
     cursor: pointer;
     max-height: 200px;
-    max-width: 100%;
+    width: 100%;
+    height: 10vw;
 }
 
-#icons img[src="/GraphQL.png"]:hover{
+#icons img[src="/GraphQL.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -190,24 +203,25 @@
 /* LINKEDIN AND GITHUB ICON */
 
 #zaw img[src="/github.png"] {
-    height: 100px;
-    max-width: fit-content;
     padding-right: 30px;
     cursor: pointer;
+    width: 100%;
+    height: 4vw;
 }
 
-#zaw img[src="/github.png"]:hover{
+#zaw img[src="/github.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
 
 #zaw img[src="/linkedin.png"] {
-    height: 100px;
+    width: 100%;
+    height: 4vw;
     max-width: fit-content;
     cursor: pointer;
 }
 
-#zaw img[src="/linkedin.png"]:hover{
+#zaw img[src="/linkedin.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -217,24 +231,25 @@
 
 
 #brandon img[src="/github.png"] {
-    height: 100px;
-    max-width: fit-content;
+    width: 100%;
+    height: 4vw;
     padding-right: 30px;
     cursor: pointer;
 }
 
 #brandon img[src="/linkedin.png"] {
-    height: 100px;
+    width: 100%;
+    height: 4vw;
     max-width: fit-content;
     cursor: pointer;
 }
 
-#brandon img[src="/github.png"]:hover{
+#brandon img[src="/github.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
 
-#brandon img[src="/linkedin.png"]:hover{
+#brandon img[src="/linkedin.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -245,24 +260,24 @@
 
 
 #christian img[src="/github.png"] {
-    height: 100px;
-    max-width: fit-content;
+    width: 100%;
+    height: 4vw;
     padding-right: 30px;
     cursor: pointer;
 }
 
 #christian img[src="/linkedin.png"] {
-    height: 100px;
-    max-width: fit-content;
+    width: 100%;
+    height: 4vw;
     cursor: pointer;
 }
 
-#christian img[src="/github.png"]:hover{
+#christian img[src="/github.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
 
-#christian img[src="/linkedin.png"]:hover{
+#christian img[src="/linkedin.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
@@ -273,24 +288,24 @@
 
 
 #andy img[src="/github.png"] {
-    height: 100px;
-    max-width: fit-content;
+    width: 100%;
+    height: 4vw;
     padding-right: 30px;
     cursor: pointer;
 }
 
 #andy img[src="/linkedin.png"] {
-    height: 100px;
-    max-width: fit-content;
+    width: 100%;
+    height: 4vw;
     cursor: pointer;
 }
 
-#andy img[src="/github.png"]:hover{
+#andy img[src="/github.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
 
-#andy img[src="/linkedin.png"]:hover{
+#andy img[src="/linkedin.png"]:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }

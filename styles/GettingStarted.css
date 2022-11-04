@@ -2,29 +2,30 @@
     background-color: #93ccc2;
     height: 100vh;
     justify-content: center;
+    
 
 }
 
 #GettingStartedComponent {
     display: flex;
     flex-direction: column;
-    font-size: 3rem;
+    font-size: 110%;
     font-weight: bold;
     text-align: center;
     max-width: 80%;
     gap: 150px;
-    position:absolute;
-    bottom:30%;
+    align-self:center;
 }
 
 #GettingStartedComponent #bodyText {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 100%;
     font-weight:350;
-    gap:100px;
+    gap:3vw;
     color: #F9fbf6;
     text-align: center;
+    
 }
 
 #GettingStartedComponent #bodyText #link1 {
@@ -50,12 +51,5 @@
 }
 
 #GettingStartedComponent #bodyText #link2:hover {
-
     color: white;
-}
-
-#GettingStartedComponent #icons {
-    display: flex;
-    flex-direction: row;
-    gap:100px;
 }
