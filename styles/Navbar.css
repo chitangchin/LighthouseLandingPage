@@ -1,10 +1,8 @@
 .navigation {
-    display: flex;
+    display:flex;
     position: fixed;
-    top: 1%;
-    right:41%;
-    width: 100%;
     font-size: 2rem;
+    width:100%
 }
 
 .navigation #leftsideNav {
@@ -18,7 +16,7 @@
 
 .navigation #rightsideNav {
     position: absolute;
-    right: -37%;
+    right: 1%;
     font-size: 20px;
     color: #d1d1d1;
     font-weight: 700;

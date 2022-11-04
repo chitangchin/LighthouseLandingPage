@@ -1,7 +1,8 @@
 export default function Team() {
   return <div id="TeamComponent">
-<div>Our Team</div>
+Our Team
 <div id="TheTeam">
+  
     <div id="zaw">
       <img src='/zaw.png' />
       <div>Zaw Win</div>

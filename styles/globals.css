@@ -28,5 +28,5 @@ a {
 #content div {
   /* align the text in the middle */
   display: flex;
-  justify-content: center;
+
 }

@@ -1,6 +1,8 @@
 #GettingStarted {
     background-color: #93ccc2;
     height: 100vh;
+    justify-content: center;
+
 }
 
 #GettingStartedComponent {
@@ -11,6 +13,8 @@
     text-align: center;
     max-width: 80%;
     gap: 150px;
+    position:absolute;
+    bottom:30%;
 }
 
 #GettingStartedComponent #bodyText {
@@ -19,7 +23,8 @@
     font-size: 2rem;
     font-weight:350;
     gap:100px;
-    color: #F9fbf6
+    color: #F9fbf6;
+    text-align: center;
 }
 
 #GettingStartedComponent #bodyText #link1 {
